@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86500428-614e-4aa2-b5af-3bf75717bab7" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TryWithResource.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SampleResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SampleResource2.java" afterDir="false" />
+    <list default="true" id="86500428-614e-4aa2-b5af-3bf75717bab7" name="変更" comment="try-with-resourcesの学習">
+      <change afterPath="$PROJECT_DIR$/src/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SampleUsing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SampleUsing2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +28,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;fugo8015276&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/fugo8015276/TryWithResource.git&quot;,
+    &quot;accountId&quot;: &quot;d502e03e-de7e-495e-b9a3-5ecc550fc9c6&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2sJ5BGEepeBQDYWllYDpx5GyTDs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,7 +56,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "アプリケーション.FileCopy.executor": "Run"
+    "last_opened_file_path": "C:/Users/alter/dev/github/fugo8015276/TryWithResource",
+    "アプリケーション.FileCopy.executor": "Run",
+    "アプリケーション.Main.executor": "Run",
+    "アプリケーション.Sample.executor": "Run",
+    "アプリケーション.SampleUsing.executor": "Run",
+    "アプリケーション.SampleUsing2.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,7 +69,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="アプリケーション.Main">
     <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileCopy" />
       <module name="TryWithResource" />
@@ -64,8 +77,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TryWithResource" />
+      <option name="PROGRAM_PARAMETERS" value="test -100 0.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sample" />
+      <module name="TryWithResource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleUsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SampleUsing" />
+      <module name="TryWithResource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleUsing2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SampleUsing2" />
+      <module name="TryWithResource" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="アプリケーション.Main" />
+        <item itemvalue="アプリケーション.Sample" />
+        <item itemvalue="アプリケーション.SampleUsing2" />
+        <item itemvalue="アプリケーション.SampleUsing" />
         <item itemvalue="アプリケーション.FileCopy" />
       </list>
     </recent_temporary>
@@ -79,6 +125,19 @@
       <option name="presentableId" value="Default" />
       <updated>1738160714711</updated>
     </task>
+    <task id="LOCAL-00001" summary="try-with-resourcesの学習">
+      <option name="closed" value="true" />
+      <created>1738162210316</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738162210316</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="try-with-resourcesの学習" />
+    <option name="LAST_COMMIT_MESSAGE" value="try-with-resourcesの学習" />
   </component>
 </project>
